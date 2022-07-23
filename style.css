@@ -1,10 +1,18 @@
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 10px;
   background-color: lightgrey;
 }
 
+.container h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
 .wrapper {
+  background-color: azure;
   display: flex;
   justify-content: space-between;
   align-items: center;
